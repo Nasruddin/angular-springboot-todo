@@ -52,6 +52,7 @@
               "id": "af014b46-6ecb-424d-ab30-e61720b895db",
               "z": 2,
               "hasOpenThreats": false,
+              "privilegeLevel": "executionContext =Limited",
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
@@ -85,6 +86,10 @@
                 {
                   "x": 227,
                   "y": 190
+                },
+                {
+                  "x": 234,
+                  "y": 213
                 }
               ],
               "id": "b9fe3906-b4fc-4d53-a57f-14ed588d68f8",
@@ -103,6 +108,8 @@
               "z": 3,
               "hasOpenThreats": false,
               "isPublicNetwork": true,
+              "protocol": "HTTP/S",
+              "isEncrypted": true,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -148,6 +155,8 @@
               "z": 4,
               "hasOpenThreats": false,
               "isPublicNetwork": true,
+              "protocol": "HTTP/S",
+              "isEncrypted": true,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -276,6 +285,7 @@
               "id": "bff81c8d-9c44-475d-9338-cb40d439280a",
               "z": 9,
               "hasOpenThreats": false,
+              "privilegeLevel": "executionContext =Limited",
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
